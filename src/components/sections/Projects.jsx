@@ -120,7 +120,7 @@ const Projects = () => {
             WEB APP"S
           </ToggleButton>
           <Divider />
-          <ToggleButton
+          {/* <ToggleButton
             active={toggle === "android app"}
             onClick={() => setToggle("android app")}
           >
@@ -132,7 +132,7 @@ const Projects = () => {
             onClick={() => setToggle("machine learning")}
           >
             MACHINE LEARNING
-          </ToggleButton>
+          </ToggleButton> */}
         </ToggleButtonGroup>
 
         <CardContainer>

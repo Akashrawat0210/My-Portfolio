@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
+import { Bio } from "../../data/constants";
 
 const Container = styled.div`
   display: flex;
@@ -134,7 +135,7 @@ const Contact = () => {
             marginBottom: "40px",
           }}
         >
-          Feel free to reach out to me for any questions or opportunities!
+         For any inquiries or assistance, feel free to reach out to us. You can contact us via email at {Bio.email} or call us at {Bio.contact}, and I'll be happy to connect!
         </Desc>
         <ContactForm onSubmit={handelSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>

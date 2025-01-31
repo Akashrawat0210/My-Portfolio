@@ -8,12 +8,13 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Akashrawat0210",
-  resume:
-    "https://docs.google.com/document/d/1WePfAWWKE8923CetT0knIyAYUWcCGajdL7Gg2GmkUVo/edit?tab=t.0",
+  resume:"https://drive.google.com/file/d/1siZkvb22LNCtNu9eiFxHj6m3BLTYPJzP/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/akash-rawat-b89321254/",
   twitter: "",
   insta: "https://www.instagram.com/alone_rider_02.10?igsh=M3BwZGZvdXNrcmVq",
   facebook: "https://www.facebook.com/share/15mJcagzrH/",
+  email: "akkurawat84@gmail.com",
+  contact:"8445890097",
 };
 
 export const skills = [
@@ -292,7 +293,7 @@ export const education = [
     school: "Govind Ballabh Pant Institute of Engineering and Technology Pauri",
     date: "sep 2019 - sept 2022",
     grade: "6.0 CGPA",
-    desc: "I am currently pursuing a Master's degree in Computer Science and Engineering at Govind Ballabh Pant Institute of Engineering and Technology, Pauri Garhwal. I have completed 4 semesters and have a CGPA of 6. I have taken courses in Data Structures Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "I completed my Master's degree in Computer Science and Engineering at Govind Ballabh Pant Institute of Engineering and Technology, Pauri Garhwal. I have completed 4 semesters and have a CGPA of 6. I have taken courses in Data Structures Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Master of Computer Applications - MCA, Computer Science and Engineering",
   },
   {
@@ -301,7 +302,7 @@ export const education = [
     school: "  Hemvati Nandan Bahuguna Garhwal University",
     date: "Oct 2022 - Sep 2024",
     grade: "6.0 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Physics, Chemistry and Maths at Hemvati Nandan Bahuguna Garhwal University, Pauri Garhwal. I have completed 6 semesters and have a CGPA of 6.2 . Successfully completed a Bachelor of Science (BSc) in Physics, Chemistry, and Mathematics (PCM). Gained a comprehensive understanding of fundamental scientific principles, with hands-on experience in laboratory techniques, mathematical modeling, and problem-solving. ",
+    desc: "I completed my Bachelor's degree in Physics, Chemistry and Maths at Hemvati Nandan Bahuguna Garhwal University, Pauri Garhwal. I have completed 6 semesters and have a CGPA of 6.2 . Successfully completed a Bachelor of Science (BSc) in Physics, Chemistry, and Mathematics (PCM). Gained a comprehensive understanding of fundamental scientific principles, with hands-on experience in laboratory techniques, mathematical modeling, and problem-solving. ",
     degree: "Bachelor of Science - BSc ",
   },
 
@@ -327,7 +328,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
+    id: 1,
     title: "DecisionHub",
     date: "Jan 2024 - Dec 2023",
     description:
@@ -343,8 +344,8 @@ export const projects = [
       "React Flow",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
+    github: "https://g",
+    webapp: "https:/",
   }
 ];
 

@@ -89,10 +89,28 @@ const Avatar = styled.img`
   border: 3px solid ${({ theme }) => theme.card};
 `;
 const Button = styled.a`
-  color: ${({ theme }) => theme.primary};
+
+ cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.6s ease-in-out;
   text-decoration: none;
-  font-weight: 600;
-  text-align: center;
+  border: 1px solid ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.primary};
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  &:hover {
+    background: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.text_primary};
+  }
+`;
+
+const AllButton=styled.a`
+display:flex;
+ justify-content: space-between;
 `;
 
 const ProjectCard = ({ project }) => {
@@ -110,9 +128,15 @@ const ProjectCard = ({ project }) => {
           <Avatar src={member.img} />
         ))}
       </Members>
+      <AllButton>
       <Button href={project.github} target="_blank">
         View Code
       </Button>
+      <Button href={project.webapp} target="_blank">
+        Run Code
+      </Button>
+      </AllButton>
+
     </Card>
   );
 };
