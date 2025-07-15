@@ -8,7 +8,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Akashrawat0210",
-  resume:"https://drive.google.com/file/d/1siZkvb22LNCtNu9eiFxHj6m3BLTYPJzP/view?usp=drive_link",
+  resume:"https://drive.google.com/drive/folders/10zR0Hsaqp8LVlnIIXcrsyRAqWZHEaMxx?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/akash-rawat-b89321254/",
   twitter: "",
   insta: "https://www.instagram.com/alone_rider_02.10?igsh=M3BwZGZvdXNrcmVq",
